@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bulma.css">
 	<link rel="stylesheet" href="css/mystyles.css">
+	<script type="text/javascript" src="js/navbarburger.js"></script>
 </head>
 <body class="bg">
 	<nav class="navbar is-dark">
@@ -13,19 +14,35 @@
 				My Portfolio
 			</a>
 	
-			<!-- <a role="button" class="navbar-burger burger">
+			<a role="button" class="navbar-burger burger" data-target="navbar-items">
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
-			</a> -->
+			</a>
 		</div>
 	
-		<div class="navbar-menu">
+		<div class="navbar-menu" id="navbar-items">
 			<div class="navbar-start">
+				<a class="navbar-item" href="https://github.com/ajayrajnelapudi">
+					Projects
+				</a>
 				<a class="navbar-item" href="https://bit.ly/AjayRajNelapudi">
 					Resume
 				</a>
-			</div>
+				<div class="navbar-item has-dropdown is-hoverable">
+					<a class="navbar-link">
+						Blogs
+					</a>
+				
+					<div class="navbar-dropdown">
+						<a class="navbar-item" href="https://medium.com/@ajayrajnelapudi">
+							Medium
+						</a>
+						<a class="navbar-item" href="https://itshisthought.blogspot.com/">
+							Blogger
+						</a>
+					</div>
+				</div>
 	
 		</div>
 	</nav>
