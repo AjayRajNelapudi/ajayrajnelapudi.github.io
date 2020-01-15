@@ -11,3 +11,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.has-image-centered {
+    justify-content: center;
+}
