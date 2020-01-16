@@ -3,14 +3,23 @@ html {
 }
 
 body {
-    background: url("../images/background.jpeg") no-repeat center center fixed;
+    background: url("../images/racing-stripes.png") no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
 
+#name {
+    color: black;
+}
+
 @media (pointer:coarse) {
     body {
-        background: url("../images/background.jpeg") center;
+        background: url("../images/racing-stripes.png");
+        background-position: 80%;
+    }
+
+    #name {
+        color: white;
     }
 }
 
