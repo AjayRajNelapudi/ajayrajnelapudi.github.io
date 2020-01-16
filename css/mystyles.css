@@ -11,6 +11,13 @@ body {
     overflow: hidden;
 }
 
+@media (pointer:coarse) {
+    body {
+        background: url("../images/background-mobile.jpeg") fixed;
+        background-size: cover;
+    }
+}
+
 .has-image-centered {
     justify-content: center;
 }
