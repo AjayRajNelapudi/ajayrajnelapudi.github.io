@@ -18,6 +18,12 @@ body {
     margin-bottom: 2em;
 }
 
+@media (pointer: coarse) {
+    #divider {
+        width: 100%;
+    }
+}
+
 /* #name {
     color: black;
 } */
