@@ -3,25 +3,35 @@ html {
 }
 
 body {
-    background: url("../images/racing-stripes.png") no-repeat center center fixed;
+    background: url("../images/background.png") no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
 
-#name {
-    color: black;
+#divider {
+    height: 2px; 
+    width: 50%;
+    text-align:right;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 2em;
 }
 
-@media (pointer:coarse) {
+/* #name {
+    color: black;
+} */
+
+/* @media (pointer:coarse) {
     body {
-        background: url("../images/racing-stripes.png");
+        background: url("../images/background.png");
         background-position: 80%;
     }
 
     #name {
         color: white;
     }
-}
+} */
 
 .has-image-centered {
     justify-content: center;
